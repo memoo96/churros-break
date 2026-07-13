@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="Keywords" content="Churros Break - more description" />
+    <meta name="description" content="Churros Break - more description" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Churros Break</title>
+    <link rel="icon" type="image/png" href="images/icon.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div class="Body_overlay"></div>
+    <!-- Start head Section -->
+    <div class="headSection">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <select id="demo-htmlselect">
+                        <option value="0" selected="selected" data-imagesrc="images/kw.png">
+                            KWD
+                        </option>
+                        <option value="1" data-imagesrc="images/eg.png">
+                            EG
+                        </option>
+                        <option value="2" data-imagesrc="images/em.png">
+                            AED
+                        </option>
+                    </select>
+                </div>
+                <div class="col-lg-9">
+                    <div class="Links">
+                        <ul>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a class="Arabic" href="#">عربي</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End head Section -->
+
+    <!-- Start navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <div class="col-lg-2">
+            <a href="#" class="navbar-brand">
+                <img src="images/logo.svg" alt="">
+            </a>
+            <i class="fa fa-search Search_Icon formobile" data-toggle="modal" data-target="#SearchModel"
+                aria-hidden="true"></i>
+        </div>
+
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent"
+            aria-controls="#navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="mx-2 close"><img src="images/cancel.svg" alt=""></span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="col-lg-8">
+            <div id="navbarContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            class="nav-link dropdown-toggle">Categories</a>
+                        <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0">
+                            <li class="dropdown-submenu">
+                                <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false" class="dropdown-item dropdown-toggle">Category 1</a>
+                                <ul id="dropdownMenu_2" aria-labelledby="dropdownMenu2" class="dropdown-menu border-0">
+                                    <li><a href="#" class="dropdown-item">Subcategory 1</a></li>
+                                    <li><a href="#" class="dropdown-item">Subcategory 2</a></li>
+                                    <li><a href="#" class="dropdown-item">Subcategory 3</a></li>
+                                    <li><a href="#" class="dropdown-item">Subcategory 4</a></li>
+                                    <li><a href="#" class="dropdown-item">Subcategory 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="dropdown-item">Category 2</a></li>
+                            <li><a href="#" class="dropdown-item">Category 3</a></li>
+                            <li><a href="#" class="dropdown-item">Category 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">New Products</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Featured Products</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+                    <li class="formobile nav-item">
+                        <a href="#" class="nav-link">
+                            <img class="fav" src="images/favblue.png" alt="">
+                            My Favourites
+                        </a>
+                    </li>
+                    <li class="formobile nav-item">
+                        <a href="#" class="nav-link">
+                            <img class="cart" src="images/cartblue.png" alt="">
+                            Shopping Cart
+                        </a>
+                    </li>
+                    <li class="formobile nav-item">
+                        <a href="#" class="nav-link">Register</a>
+                    </li>
+                    <li class="formobile nav-item">
+                        <a href="#" class="nav-link">Login</a>
+                    </li>
+                    <li class="formobile nav-item">
+                        <select id="demo-htmlselect2">
+                            <option value="0" selected="selected" data-imagesrc="images/kw.png">
+                                KWD
+                            </option>
+                            <option value="1" data-imagesrc="images/eg.png">
+                                EG
+                            </option>
+                            <option value="2" data-imagesrc="images/em.png">
+                                AED
+                            </option>
+                        </select>
+                    </li>
+                    <li class="formobile nav-item">
+                        <a href="#" class="nav-link Arabic">عربي</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+      
+        <div class="col-lg-2">
+            <div class="links">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0);" data-toggle="tooltip" title="Search" data-placement="bottom">
+                            <img data-toggle="modal" data-target="#SearchModel" class="search" src="images/search.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="tooltip" title="Favourite" data-placement="bottom">
+                            <img class="fav" src="images/fav.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="tooltip" title="Cart" data-placement="bottom">
+                            <img class="cart" src="images/cart.png" alt="">
+                            <div class="CartNumber">
+                                <h5>5</h5>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!-- End navbar -->
+
+    <!-- Start Slider -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide" style="background-image:url('images/slider.png')">
+                <div class="overlay">
+                    <div class="contentSlider">
+                        <h1>Delicious cakes</h1>
+                        <p>Now can be delivered directly to your home</p>
+                        <button class="btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide" style="background-image:url('images/slider2.png')">
+                <div class="overlay">
+                    <div class="contentSlider">
+                        <h1>Delicious cakes</h1>
+                        <p>Now can be delivered directly to your home</p>
+                        <button class="btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide" style="background-image:url('images/slider3.png')">
+                <div class="overlay">
+                    <div class="contentSlider">
+                        <h1>Delicious cakes</h1>
+                        <p>Now can be delivered directly to your home</p>
+                        <button class="btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <img class="imgUpslider" src="images/upslider.png" alt="">
+    </div>
+    <!-- End Slider -->
+
+    <!-- Start Categories -->
+    <section id="Categories">
+        <div class="container">
+            <div class="Headingtitle">
+                <h4>Categories</h4>
+                <img src="images/headerLine.png" alt="">
+            </div>
+            <div class="row">
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="categoryItem">
+                        <div class="image">
+                            <img src="images/cat1.png" alt="">
+                        </div>
+                        <div class="Content">
+                            <h4>8 mini cup</h4>
+                            <p class="text-truncate">Lorem Ipsum is simply dummy
+                                text of the printing</p>
+                            <div class="ViewAllbutton">
+                                <a href="#"><button class="btn">View All</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="categoryItem">
+                        <div class="Content">
+                            <h4>Iced Coffee</h4>
+                            <p class="text-truncate">Lorem Ipsum is simply dummy
+                                text of the printing</p>
+                            <div class="ViewAllbutton">
+                                <a href="#"><button class="btn">View All</button></a>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="images/cat2.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="categoryItem">
+                        <div class="image">
+                            <img src="images/cat3.png" alt="">
+                        </div>
+                        <div class="Content">
+                            <h4>Coffee 2018</h4>
+                            <p class="text-truncate">Lorem Ipsum is simply dummy
+                                text of the printing</p>
+                            <div class="ViewAllbutton">
+                                <a href="#"><button class="btn">View All</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="categoryItem">
+                        <div class="Content">
+                            <h4>Sweets</h4>
+                            <p class="text-truncate">Lorem Ipsum is simply dummy
+                                text of the printing</p>
+                            <div class="ViewAllbutton">
+                                <a href="#"><button class="btn">View All</button></a>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="images/cat4.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="buttons">
+                <a href="categories.html"><button class="btn btn_viewAll">View All</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- End Categories -->
+
+    <!-- Start Featured Products -->
+    <section id="Featured_Products">
+        <div class="container">
+            <div class="Headingtitle">
+                <h4>Featured Products</h4>
+                <img src="images/headerLine.png" alt="">
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ProductItem">
+                        <div class="image">
+                            <img src="images/1.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h5 >The Product Name will
+                                be here..</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="price">
+                                    <span>22.123 KWD</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="favLinks">
+                                    <ul>
+                                        <li><img class="unselected_Fav" src="images/unselected_Fav.png" alt=""></li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/cartblue.png" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ProductItem">
+                        <div class="image">
+                            <img src="images/2.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h5 >The Product Name will
+                                be here..</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="price">
+                                    <span>22.123 KWD</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="favLinks">
+                                    <ul>
+                                        <li><img class="unselected_Fav" src="images/unselected_Fav.png" alt=""></li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/cartblue.png" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ProductItem">
+                        <div class="image">
+                            <img src="images/3.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h5 >The Product Name will
+                                be here..</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="price">
+                                    <span>22.123 KWD</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="favLinks">
+                                    <ul>
+                                        <li><img class="unselected_Fav" src="images/unselected_Fav.png" alt=""></li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/cartblue.png" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ProductItem">
+                        <div class="image">
+                            <img src="images/4.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h5 >The Product Name will
+                                be here..</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="price">
+                                    <span>22.123 KWD</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="favLinks">
+                                    <ul>
+                                        <li><img class="unselected_Fav" src="images/unselected_Fav.png" alt=""></li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/cartblue.png" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ProductItem">
+                        <div class="image">
+                            <img src="images/5.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h5 >The Product Name will
+                                be here..</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="price">
+                                    <span>22.123 KWD</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="favLinks">
+                                    <ul>
+                                        <li><img class="unselected_Fav" src="images/unselected_Fav.png" alt=""></li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/cartblue.png" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ProductItem">
+                        <div class="image">
+                            <img src="images/6.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h5 >The Product Name will
+                                be here..</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="price">
+                                    <span>22.123 KWD</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="favLinks">
+                                    <ul>
+                                        <li><img class="unselected_Fav" src="images/unselected_Fav.png" alt=""></li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/cartblue.png" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ProductItem">
+                        <div class="image">
+                            <img src="images/7.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h5 >The Product Name will
+                                be here..</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="price">
+                                    <span>22.123 KWD</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="favLinks">
+                                    <ul>
+                                        <li><img class="unselected_Fav" src="images/unselected_Fav.png" alt=""></li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/cartblue.png" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ProductItem">
+                        <div class="image">
+                            <img src="images/8.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h5 >The Product Name will
+                                be here..</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="price">
+                                    <span>22.123 KWD</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="favLinks">
+                                    <ul>
+                                        <li><img class="unselected_Fav" src="images/unselected_Fav.png" alt=""></li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/cartblue.png" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Featured Products -->
+
+    <!-- End Newsteller -->
+    <section id="Newsteller">
+        <div class="container">
+            <div class="content">
+                <div class="overlay">
+                    <h3>Our Newsteller</h3>
+                    <p>join our mailing list for exclusive discounts, we promise to only send you good things.</p>
+                    <div class="email-box">
+                        <i class="fa fa-envelope"></i>
+                        <input type="text" class="form-control subscribeInp"
+                            placeholder="Enter your email here...">
+                        <div class="subscribeButton">
+                            <button class="btn">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Newsteller -->
+
+    <!-- Start Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="list-unstyled footer_list">
+                        <li class="widget-container widget_nav_menu">
+                            <img src="images/logo.svg" alt="">
+                            <p>Lorem Ipsum is simply dummy 
+                                text of the printing and typesetting
+                                industry. Lorem Ipsum...</p>
+                            <button class="btn">More</button>    
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="list-unstyled footer_list">
+                        <li class="widget-container widget_nav_menu">
+                            <h1 class="title-widget">Information</h1>
+                            <ul class="linksList">
+                                <li><a href="#">Sitemap</a></li>
+                                <li><a href="#">Shipping & returns</a></li>
+                                <li><a href="#">Privacy notice</a></li>
+                                <li><a href="#">Conditions of Use</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="list-unstyled footer_list">
+                        <li class="widget-container widget_nav_menu">
+                            <h1 class="title-widget">Customer service</h1>
+                            <ul class="linksList">
+                                <li><a href="#">Search</a></li>
+                                <li><a href="#">Recently viewed</a></li>
+                                <li><a href="#">New products</a></li>
+                                <li><a href="#">Featured products</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="list-unstyled footer_list">
+                        <li class="widget-container widget_nav_menu">
+                            <h1 class="title-widget">My Account</h1>
+                            <ul class="linksList">
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">My Orders</a></li>
+                                <li><a href="#">My Addresses</a></li>
+                                <li><a href="#">Shopping Cart</a></li>
+                                <li><a href="#">Favourite List</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+             
+
+
+
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+
+                    <div class="col-lg-4 col-12 p-0">
+                        <div class="language">
+                            <p>Copyright © 2020 Churro Break. All rights reserved.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 p-0">
+                        <div class="social">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-12 p-0">
+                        <div class="copyright">
+                            <p>Developed by <a href="#"><img src="images/HardTask_logo.png" alt=""></a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Scroll To Top  -->
+    <div class="scroll_top">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </div>
+    <!-- End Scroll To Top -->
+
+
+    <div class="modal fade" id="SearchModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content SearchModelContent">
+                <form action="">
+                    <div class="search_box_popup">
+                        <input class="search_input" type="search" placeholder="Search..." />
+                        <input class="search_btn" type="submit" value="Search" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/prashantchaudhary/ddslick/master/jquery.ddslick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+
+        var swiper = new Swiper('.swiper-container', {
+            centeredSlides: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+    </script>
+</body>
+
+</html>
